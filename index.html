@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>model viewer</title>
+	<link rel="stylesheet" href="style.css" />
+	<link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+	<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+	<style>
+		model-viewer{
+			width: 500px;
+			height: 500px;
+			margin: 0 auto;
+		}
+		.contenedor{
+			display: flex;
+			justify-content: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<a href="#" class="header">
+			<img src="brobologo0001.gif" alt="logo de la compania" class="logoimg">
+		</a>
+	</header>
+
+	<div class=bannerarea></div>
+
+		<div class="content">
+		<div> <p>astroboy</p></div>
+		<model-viewer src="modelos en 3d\astroboy para html.gltf" camera-controls auto-rotate: model-viewer src="modelos en 3d\totebagdwayn1.gltf".gltf" camera-controls auto-rotate></model-viewer>	
+		<div> <p>dwayn2k</p></div>
+		<model-viewer src="modelos en 3d\dwayn2k.gltf".gltf" camera-controls auto-rotate></model-viewer>	
+		<div> <p>dwayn fishing</p></div>
+		<model-viewer src="modelos en 3d\dwaynpescandoy2k.gltf" camera-controls auto-rotate></model-viewer>
+
+		<div class="contenedor">
+	
+			<model-viewer src="modelos en 3d\metalheadbad.gltf".gltf" camera-controls auto-rotate></model-viewer>	
+			<model-viewer src="modelos en 3d\robot de substance en bledner.gltf".gltf" camera-controls auto-rotate></model-viewer>	
+
+	</div>
+	
+</body>
+</html>
